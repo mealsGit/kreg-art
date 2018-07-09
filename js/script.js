@@ -35,14 +35,14 @@ $(document).ready(function() {
 			});
 		
 			//GALLERY FUNCTIONALITY//
-			$(".thumb-link").bind("mouseenter touchstart", function(){
+			//$(".thumb-link").bind("mouseenter touchstart", function(){
 			//$(document).on('mouseenter','.thumb-link',function(e){
-				$(this).append("<img src='assets/images/svgs/select-square.svg' class='hover-image' style='opacity:1;'>");
-			});
-			$(".thumb-link").bind("mouseleave touchend", function(){
+			//	$(this).append("<img src='assets/images/svgs/select-square.svg' class='hover-image' style='opacity:1;'>");
+			//});
+			//$(".thumb-link").bind("mouseleave touchend", function(){
 			//$(document).on('mouseleave','.thumb-link',function(e){
-				$(this).find(".hover-image").remove();
-			});			
+			//	$(this).find(".hover-image").remove();
+			//});			
 			
 			//MENU FUNCTIONALITY//
 			
